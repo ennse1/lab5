@@ -29,8 +29,6 @@ namespace AvaloniaApplication6.Views
                 {
                     inputField.Text = "INVALID REGEX";
                 }
-
-
             };
             this.FindControl<Button>("Close").Click += delegate
             {
@@ -45,6 +43,5 @@ namespace AvaloniaApplication6.Views
         {
             this.Close();
         }
-
     }
 }
